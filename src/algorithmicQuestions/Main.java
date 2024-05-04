@@ -1,11 +1,12 @@
 package algorithmicQuestions;
-import java.util.Set;
-
 public class Main {
     public static void main(String[] args) {
+        String[] names = {"Dog", "Cat", "Rabbit"};
+        Animal.getArray(names);
+           ShowInfo showInfo = (age, name) -> System.out.println(age+ " "+name);
+           showInfo.show(3,"kitty");
 
-        Animal <String> animal = new Animal<>("Kitty");
-        System.out.println(animal.getSth());
+
 //        System.out.println(Methods.isPalindrome(1223));
 //
 //        System.out.println(Methods.isBalanced("((({]]))"));
@@ -14,4 +15,4 @@ public class Main {
 //        Set<Integer> indexes=Methods.findIndexes(arr);
 //      Methods.displayIndexesWithSum(indexes,arr);
     }
-    }
+}

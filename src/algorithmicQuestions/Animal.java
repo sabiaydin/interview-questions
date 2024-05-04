@@ -1,11 +1,9 @@
 package algorithmicQuestions;
 
 public class Animal<T> {
-    T sth;
-   public Animal(T sth){
-       this.sth=sth;
-   }
-    public T getSth() {
-        return sth;
-    }
+  public  static <K> void getArray(K[] elements){
+      for(K data : elements ){
+          System.out.println(data);
+      }
+  }
 }
